@@ -5,6 +5,14 @@
     box-sizing: border-box;
 
 }
+p {
+    text-shadow: 2px 2px #000000;
+  }
+
+h1 {
+    text-shadow: 3px 3px #000000;
+  }
+
 html{
     scroll-behavior: smooth;
 }
