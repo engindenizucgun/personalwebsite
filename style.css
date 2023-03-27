@@ -233,6 +233,9 @@ nav .fa-solid{
     #header{
         background-image: url(images/telefon.png);
     }
+        .clock{
+        display: none;
+    }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
