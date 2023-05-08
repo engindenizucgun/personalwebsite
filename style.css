@@ -186,10 +186,7 @@ nav ul li a:hover::after{
     display: inline-block;
     transition: transform 0.5s;
 }
-.social-icons a:hover{
-    color: #ffa705;
-    transform: translateY(-5px);
-}
+
 .btn.btn2{
     display: inline-block;
     background: #fff;
