@@ -41,7 +41,7 @@ body {
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/arkaplan.png);
+    background-image: url(images/yeniarkaplan.png);
     background-size: cover;
     background-position: center;
 }
@@ -57,6 +57,7 @@ nav {
 }
 .logo{
     width: 140px;
+    
 }
 nav ul li {
     display: inline-block;
@@ -74,7 +75,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ffa705;
+    background: #e3a7d4;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -133,7 +134,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ffa705;
+    background: #e3a7d4;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -149,7 +150,7 @@ nav ul li a::after{
 
 }
 .tab-contents ul li span{
-    color: #ffa705;
+    color: #e3a7d4;
     font-size: 14px;
 }
 .tab-contents{
@@ -169,7 +170,7 @@ nav ul li a::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ffa705;
+    color: #e3a7d4;
     margin-right: 15px;
     font-size: 25px;
 }
