@@ -230,9 +230,6 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
-    #header{
-        /*background-image: url(images/1ACE96CB-7BBE-4FE0-AF1C-8C41B5C0873B.png);*/
-    }
         .clock{
         display: none;
     }
