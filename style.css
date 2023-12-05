@@ -32,6 +32,10 @@ h1 {
     transform: translate(-50%, -50%);
     font-size: 25px;
 }
+h5 {
+    text-align: center;
+}
+
 html{
     scroll-behavior: smooth;
 }
