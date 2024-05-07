@@ -88,6 +88,8 @@
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="playClickSound(); opentab('becerilerim')">Becerilerim</p>
+                        <p class="tab-links active-link" onclick="playClickSound(); opentab('özgeçmişim')">Özgeçmişim</p>
+
                         <p class="tab-links" onclick="playClickSound(); opentab('eğitimlerim')">Eğitimlerim</p>
                         
                     </div>
@@ -100,6 +102,15 @@
                             <li><span>Yabancı Dil</span><br>İngilizce(C1), Japonca(giriş seviyesi)</li>
                         </ul>
                     </div>
+
+                    <div class="tab-contents active-tab" id="özgeçmişim">
+                        <ul>
+                            <li><span>15 Kasım 2001'de Antalya'da doğdum. Annem Antalya Kaleiçili babam İstanbul Fatihli. Baştan beri yeni şeyler öğrenmeyi ve bir şeyler deneyimlemeyi seviyorum. Bundan dolayı en güçlü özelliklerimden biri hızlı öğrenmek. Küçüklüğümde resim yapmaya başladım, sonrasında kemanla müzik öğrenmeye başladım, bateriye geçtim şimdi bir yandan gitar öğreniyorum. Birkaç yıldır yazıyorum, son iki yılda felsefe okumaya başladım ve yazılarım da bu yönde şekillendi. Özyeğin elektrik elektronik mühendisliği fakültesini birimek üzereyim. Hayatı anlamsız buluyorum ama kendi amacımı yarattım ve onu gerçekleştirmek istiyorum. Üretmek ve insanlara etki sağlamak istiyorum. Kendimi değerli hissettiren ve anlam bulabildiğim yegane şey bu.</span></li>
+
+                        </ul>
+                    </div>
+
+                    
                     <div class="tab-contents" id="eğitimlerim">
                         <ul>
                             <li><span>2016</span><br>TED Antalya Koleji mezun.</li>
@@ -141,7 +152,7 @@
 
     <script>
         function playClickSound() {
-            var clickSound = new Audio('images/jeff.mp3');
+            var clickSound = new Audio('images/j.mp3');
             clickSound.play();
         }
     </script>
