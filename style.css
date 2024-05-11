@@ -278,6 +278,19 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
+    .clock{
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
     .header-text{
         margin-top: 100%;
         font-size: 16px;
