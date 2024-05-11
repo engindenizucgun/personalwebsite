@@ -96,7 +96,7 @@ nav {
 }
 .hallo {
     font-size: 50px;
-    color: #e21212;
+    color: #ef950f;
 }
 .hidden {
     opacity: 0;
@@ -119,6 +119,16 @@ nav ul li a{
     position: relative;
 
 }
+.back-video{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    top: 0;
+    z-index: -1;
+
+}
+
 nav ul li a::after{
     content: '';
     width: 0;
@@ -278,19 +288,26 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
-    .clock{
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-    font-family: sans-serif;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-}
 
+    .clock{
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+    }
+
+    .back-video{
+        display: none;
+        
+            
+        }
+    
     .header-text{
         margin-top: 100%;
         font-size: 16px;
