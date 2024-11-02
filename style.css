@@ -119,15 +119,28 @@ nav ul li a{
     position: relative;
 
 }
-.back-video{
+
+.overlay {
     position: absolute;
-    bottom: 0;
-    right: 0;
-
     top: 0;
-    z-index: -1;
-
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 100%);
+    pointer-events: none; /* Ensure it doesn't block clicks on the content */
 }
+
+
+.back-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 
 nav ul li a::after{
     content: '';
