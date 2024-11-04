@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     text-shadow: 2px 2px #000000;
     font-family: sans-serif;
-    color: white;
+    color: #ef950f;
     font-weight: bold;
     position: absolute;
     top: 10%;
@@ -306,7 +306,7 @@ nav .fa-solid{
         text-align: center;
         text-shadow: 2px 2px #000000;
         font-family: sans-serif;
-        color: white;
+        color:#ef950f;
         font-weight: bold;
         position: absolute;
         top: 10%;
